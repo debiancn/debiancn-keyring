@@ -1,3 +1,6 @@
+debian/debhelper-build-stamp
+debian/debiancn-keyring.substvars
+debian/debiancn-keyring/
 debian/debiancn-keyring.debhelper.log
 debian/files
 output/README

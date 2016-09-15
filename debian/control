@@ -11,6 +11,7 @@ Vcs-Git: https://github.com/debiancn/debiancn-keyring.git
 Package: debiancn-keyring
 Architecture: all
 Recommends: gnupg (>= 1.0.6-4)
+Depends: ${misc:Depends}
 Description: GnuPG keys of Debian CN Community
  The Debian CN Community wants developers to digitally sign the
  announcements of their packages with GnuPG, to protect against
