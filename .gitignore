@@ -1,0 +1,6 @@
+debian/debiancn-keyring.debhelper.log
+debian/files
+output/README
+output/changelog
+output/keyrings/debiancn-keyring.gpg
+output/sha512sums.txt
