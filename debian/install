@@ -1,0 +1,2 @@
+output/keyrings/debiancn-keyring.gpg       usr/share/keyrings/
+output/keyrings/debiancn-keyring.gpg       etc/apt/trusted.gpg.d/
