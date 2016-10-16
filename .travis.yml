@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+
+services:
+  - docker
+
+script:
+  - wget -O- https://hosiet.me/resources/travis_debian.sh | bash -
+
+branches:
+  except:
+    - /^debian\/\d/
