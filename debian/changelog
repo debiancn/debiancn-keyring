@@ -1,3 +1,9 @@
+debiancn-keyring (0~20161212) unstable; urgency=medium
+
+  * Add new keyring 0D466E1DA2992C9C.
+
+ -- Boyuan Yang <073plan@gmail.com>  Mon, 12 Dec 2016 20:05:01 +0800
+
 debiancn-keyring (0~20160915) unstable; urgency=medium
 
   * Initial release.
