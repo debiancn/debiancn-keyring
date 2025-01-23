@@ -1,3 +1,10 @@
+debiancn-keyring (0~20250123) unstable; urgency=medium
+
+  * Do not remove files under /etc/apt/trusted.gpg.d/ for
+    now to ease migration of old users.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 23 Jan 2025 00:40:14 -0500
+
 debiancn-keyring (0~20250122) unstable; urgency=medium
 
   * Adopt deb822 format and signed-by field.
