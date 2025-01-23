@@ -1,8 +1,10 @@
 debiancn-keyring (0~20250122) unstable; urgency=medium
 
   * Adopt deb822 format and signed-by field.
+  * Also install Apt pinning pref file as suggested in
+    https://wiki.debian.org/DebianRepository/UseThirdParty#Standard_pinning .
 
- -- Boyuan Yang <byang@debian.org>  Wed, 22 Jan 2025 23:36:32 -0500
+ -- Boyuan Yang <byang@debian.org>  Wed, 22 Jan 2025 23:54:32 -0500
 
 debiancn-keyring (0~20161212) unstable; urgency=medium
 

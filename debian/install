@@ -1,1 +1,2 @@
 debiancn-keyring-gpg/debiancn-keyring.gpg usr/share/keyrings/
+debiancn.pref /etc/apt/preferences.d/
