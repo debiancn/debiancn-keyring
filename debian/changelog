@@ -1,3 +1,9 @@
+debiancn-keyring (0~20250122) unstable; urgency=medium
+
+  * Adopt deb822 format and signed-by field.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 22 Jan 2025 23:36:32 -0500
+
 debiancn-keyring (0~20161212) unstable; urgency=medium
 
   * Add new keyring 0D466E1DA2992C9C.

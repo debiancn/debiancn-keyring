@@ -1,0 +1,1 @@
+rm_conffile /etc/apt/trusted.gpg.d/debiancn-keyring.gpg 0~20250101 debiancn-keyring

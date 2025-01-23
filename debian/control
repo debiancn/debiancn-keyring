@@ -1,17 +1,21 @@
 Source: debiancn-keyring
 Section: misc
 Priority: optional
-Maintainer: Boyuan Yang <073plan@gmail.com>
-Build-Depends: debhelper (>= 9), gnupg
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
 Homepage: https://github.com/debiancn/debiancn-keyring
-Standards-Version: 3.9.8
+Standards-Version: 4.7.0
 Vcs-Browser: https://github.com/debiancn/debiancn-keyring
 Vcs-Git: https://github.com/debiancn/debiancn-keyring.git
+Rules-Requires-Root: no
 
 Package: debiancn-keyring
 Architecture: all
-Recommends: gnupg (>= 1.0.6-4)
-Depends: ${misc:Depends}
+Recommends:
+ gnupg (>= 1.0.6-4),
+Depends:
+ ${misc:Depends},
 Description: GnuPG keys of Debian CN Community
  The Debian CN Community wants developers to digitally sign the
  announcements of their packages with GnuPG, to protect against
