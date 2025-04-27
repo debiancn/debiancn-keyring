@@ -1,3 +1,12 @@
+debiancn-keyring (0~20250427) unstable; urgency=medium
+
+  * Embed a new debiancn-keyring public key
+    (D5D640AF019951D3A2B8A5E999E7AFF5AF5D804A)
+    to mitigate the warning of deprecated SHA-1 hashing algorithm.
+    (mitigates https://github.com/debiancn/repo/issues/195)
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 27 Apr 2025 13:21:07 -0400
+
 debiancn-keyring (0~20250123) unstable; urgency=medium
 
   * Do not remove files under /etc/apt/trusted.gpg.d/ for
